@@ -1,5 +1,9 @@
 def slice_simple():
-    texto = "Awesome"
+   texto = "Awesome"
+    print(texto.lower() [0 : 3])
+    print(texto [2 : 5])
+    print(texto.lower() [0 : 4] + texto.lower() [4 : 8])
+
     # Código a implementar, se debe utilizar la variable 'texto' para resolver el ejercicio.
     # No se debe modificar la definición de la función, ni ingresar otro valor mediante input.
 
